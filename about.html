@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab&display=swap" rel="stylesheet">  
+        <title>Chaldea Headquarters</title>
+        <style>
+            body {
+                background-image: url('https://i.pinimg.com/originals/fd/66/ca/fd66cafb9e7fbaaf4deae025aa182d64.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                width: 1850px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+                background-color: #0b0e10;
+            }
+            h1, h2 {
+                font-family: 'Lora', serif;
+            }
+            p {
+                font-family: 'Roboto Slab', serif;
+            }
+            ul {
+                list-style-type: none;
+                margin-right: auto;
+                margin-left: auto;
+                margin-top: auto;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            ul li {
+                float: left;
+                font-family: 'Roboto Slab', serif;
+                width: 16.60%;
+            }
+
+
+            ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            /* Change the link color to #111 (black) on hover */
+            ul li a:hover {
+                background-color: #111;
+            }
+            #header {
+                height: 200px;
+                width: 100%;
+                background-position: center center;
+                background-size: cover;
+                background-color: #0b0e10;
+                opacity: 1;
+                }
+            #pagetitle {
+                font-family: 'Lora', serif;
+                font-size: 64pt;
+                color: #f2f2f2;
+                padding-top: 50px;
+                padding-bottom: 47px;
+                padding-left: 10px;
+                text-align: center;
+                
+                
+            }
+            #main {
+                height: 937px;
+                
+            }
+            
+            * {box-sizing:border-box}
+
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 800px;
+              max-height: 1600px;
+              position: relative;
+              margin-left: 63px;
+              margin-right: 63px;
+              margin-top: 10px; 
+            
+            }
+            
+            /* Hide the images by default */
+            .mySlides {
+              display: none;
+            }
+            
+            .SlideTitle{
+              color: #f2f2f2;
+              padding-top: 20px;
+              font-size: 50px;
+
+            }
+            /* Caption text */
+            .text {
+              color: #f2f2f2;
+              font-size: 24px;
+              padding: 7px 10px;
+              position: relative;
+              bottom: 8px;
+              width: 95%;
+              margin-left: 20px;
+            }
+            
+            
+            #article {
+                margin-top: 50px;
+                width: 38%;
+                height: 750px;
+                background-color: #5e6671;
+                border-radius: 20px;
+                border-color: #000000;
+                float: left;
+                border-style: inset;
+                border-width: 5px;
+            }
+            
+            #banner {
+                color: #f2f2f2;
+                text-align: center;
+                padding-top: 30px;
+                margin-top: 50px;
+                margin-left: 110px;
+                width: 56%;
+                height: 750px;
+                float: left;
+                background-color: #5e6671;
+                border-radius: 20px;
+                border-color: #000000;
+                border-style: inset;
+                border-width: 5px;
+                align-self: auto;
+            }
+            #Teaser{
+              color: #f2f2f2;
+              text-align: center;
+              padding-bottom: 40px;
+            }
+            .teaser-border{
+              margin-left: auto;
+              margin-right: auto;
+              position: relative;
+              height: 520px;
+              width: 920px;
+              border: 5px solid black;
+              overflow: hidden;
+            }
+            #teaservid {
+              padding-top: 55px;
+              margin-left: auto;
+              margin-right: auto;
+              height: 600px;
+              width: 920px;
+              margin-top: -640px;
+            }
+
+            #cite {
+                margin-top: 50px;
+                width: 100%;
+                height: 1000px;
+                background-color: #5e6671;
+                border-radius: 20px;
+                border-color: #000000;
+                float: left;
+                border-style: inset;
+                border-width: 5px;
+            }
+
+            .text2 {
+              color: #f2f2f2;
+              font-size: 20px;
+              padding: 7px 10px;
+              position: relative;
+              bottom: 8px;
+              width: 95%;
+              margin-left: 20px;
+            }
+
+            #me {
+                float: left;
+                margin-left: auto;
+                margin-right: 50px;
+            }
+
+            #myacc {
+                margin-top: 50px;
+                width: 100%;
+                height: 1000px;
+                background-color: #5e6671;
+                border-radius: 20px;
+                border-color: #000000;
+                float: left;
+                border-style: inset;
+                border-width: 5px;
+            }
+
+            #acc {
+                float: center;
+                margin-left: 90px;
+                margin-right: 60px;
+                width: 90%;
+            }
+
+            .SlideTitle2{
+              color: #f2f2f2;
+              padding-top: 20px;
+              font-size: 30px;
+              text-align: center;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <p id="pagetitle">ABOUT</p>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="servants.html">Servants</a></li>
+                <li><a href="singularities.html">Singularities</a></li>
+                <li><a href="lostbelts.html">Lostbelts</a></li>
+                <li><a href="about.html">About</a></li>
+              </ul>
+        </div>
+        <div id="main">
+            <div id="article">
+              <div class="text">
+               <h1>About Me and my game acc</h1>
+               <div id="me">
+                <img src="me.jpg" alt="me" style="width: 200px;">
+                </div>
+                <br>
+               <p>Hello! I'm Gabrei Micko Santos from 9 - Arayat.</p>
+               <p>Well, I can't tell much about myself because I'm not really so special. The only thing I can say is, if this wasn't my topic, it would've been probably about Coffee.</p>
+               <p>I started playing this game for about 6 months now and I'm really enjoying it. My first 5-star character here was Altria Caster, a really strong and versatile support, she's also my favorite servant in the game.</p>
+               <p>My usual team would be Altria Caster with another support, and either of these Saber Class Servants, Lancelot or Saito Hajime.</p>
+            </div>
+            </div>
+            <div id="banner">
+                <h1 id="Teaser">Altria Caster Servant Introduction</h1>
+                <div class="teaser-border"></div>
+                  <video id="teaservid" controls>
+                    <source src="castoria.mp4" type="video/mp4">
+                  </video>
+                </div>
+
+                <div id="myacc">
+                  <div class="SlideTitle2">
+                    <h1>My in-game Account (ID: 964,145,227)</h1>
+                    <div id="acc">
+                      <img src="fgoacc.jpg" alt="myfgoacc">
+                      </div>
+                     </div>
+            </div>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="cite">
+<div class="text2">
+<h1>Works Cited</h1>
+<br>
+<h2>Youtube</h2>
+<p>Aniplex USA. “Fate/Grand Order - Altria Caster Servant Introduction.” YouTube, 4 July 2022, www.youtube.com/watch?v=T9L9f52BWJk.</p> 
+<p>---. “Fate/Grand Order - Cosmos in the Lostbelt Trailer.” YouTube, 1 Jan. 2020, www.youtube.com/watch?v=KTe92JhvASc.</p> 
+<p>---. “Fate/Grand Order - Nemo Servant Introduction.” YouTube, 30 Oct. 2022, www.youtube.com/watch?v=cD84_Ehsf7g.</p> 
+<p>---. “Fate/Grand Order - Van Gogh Servant Introduction.” YouTube, 31 Oct. 2022, www.youtube.com/watch?v=glVsO3aEG_0.</p>
+<p>---. “Fate/Grand Order Announcement Trailer.” YouTube, 15 Apr. 2017, www.youtube.com/watch?v=WMx3LY-ZMXs.</p>
+<p>---. “Fate/Grand Order Servant Class Trailer: ARCHER.” YouTube, 20 June 2017, www.youtube.com/watch?v=TEwOTFf961Q.</p>
+<p>---. “Fate/Grand Order Servant Class Trailer: LANCER.” YouTube, 6 June 2017, www.youtube.com/watch?v=byjDskIyDhI.</p>
+<p>---. “Fate/Grand Order Servant Class Trailer: SABER.” YouTube, 9 May 2017, www.youtube.com/watch?v=jA-u7nVCLxY.</p>
+<p>---. “FGO - Great Void Sea Battle: Imaginary Scramble -To the Surface, Nautilus! - Available Now.” YouTube, 28 Oct. 2022, www.youtube.com/watch?v=JmRqdII0iws.</p> 
+<p>Aniplex USA. “Fate/Grand Order 4th Anniversary Trailer.” YouTube, 9 July 2021, www.youtube.com/watch?v=tQLBCBhSYQ8.</p>
+<br>
+<h2>Websites</h2>
+<p>TYPE-MOON Wiki | Fandom. typemoon.fandom.com/wiki/TYPE-MOON_Wiki. Accessed 2 Nov. 2022.</p>
+<p>Fate/Grand Order Wiki | Fandom. fategrandorder.fandom.com/wiki/Fate/Grand_Order_Wikia. Accessed 2 Nov. 2022.</p>
+<p>“Fate Grand Order Wiki - GamePress.” Fate Grand Order GamePress, 8 Jan. 2020, gamepress.gg/grandorder/. Accessed 14 Jan. 2020.</p>
+</div>
+</div>
+
+       
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="footer">
+            <p>&copy; TYPE-MOON/FGO PROJECT</p>
+            <p>&copy; Copyright 2017 Aniplex.</p>
+        </div>
+    </body>
+</html>
